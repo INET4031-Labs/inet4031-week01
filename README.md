@@ -48,6 +48,21 @@ week-1/ .. week-9/    - per-week working directories (some weeks' real deliverab
                           .github/workflows/ - see each week-N/README.md for specifics)
 ```
 
+## Getting Each Week's Starter Content
+
+Starting Week 2, each week has a corresponding `inet4031-week0N` repo with starter
+and reference files for that week. You pull only what you need from it into this one
+repo using a temporary git remote -- you never clone it standalone, and it never
+replaces this repo. Each week's own README has the exact command for that week, for
+example:
+
+```bash
+git remote add week2 https://github.com/INET4031-Labs/inet4031-week02.git
+git fetch week2
+git checkout week2/main -- <that week's paths>
+git remote remove week2
+```
+
 ## Team Documents
 
 **Google Doc:** [Google Doc link will go here - create during Part 3 Step 11]
