@@ -61,12 +61,12 @@ document as each week's lab directions require.
 2. Follow Part 1, then Part 2, then Part 3 in order.
 3. Before submitting, run `./scripts/check-week1.sh` from the repo root to verify
    all Week 1 requirements are met.
-4. Reference `docs/acceptance-criteria.md` and `docs/qa-report-1.md` for the sign-off
+4. Reference `docs/week-01-acceptance-criteria.md` and `docs/qa-report-1.md` for the sign-off
    checklist.
 
 ## Questions or Issues
 
 1. Check the troubleshooting section in the lab directions.
-2. Review `docs/acceptance-criteria.md`.
+2. Review `docs/week-01-acceptance-criteria.md`.
 3. Consult with your team's System Admin and QA roles.
 4. Contact the course instructor if blocked.

@@ -141,8 +141,8 @@ echo "Checking documentation files..."
 
 DOC_FILES=(
     "docs/sprint-1-retrospective.md"
-    "docs/environment-log.md"
-    "docs/acceptance-criteria.md"
+    "docs/week-01-environment-log.md"
+    "docs/week-01-acceptance-criteria.md"
     "docs/qa-report-1.md"
 )
 
