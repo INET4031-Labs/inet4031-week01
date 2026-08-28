@@ -2,7 +2,7 @@
 
 ## Team Identity
 
-**Team Name:** [To be filled in during Part 2]
+**Team Name:** [To be filled in]
 
 **Team Number:** [Provided by professor]
 
