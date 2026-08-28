@@ -22,12 +22,12 @@ FAIL_COUNT=0
 # Function to print pass/fail messages
 check_pass() {
     echo -e "${GREEN}[PASS]${NC} $1"
-    ((PASS_COUNT++))
+    PASS_COUNT=$((PASS_COUNT + 1))
 }
 
 check_fail() {
     echo -e "${RED}[FAIL]${NC} $1"
-    ((FAIL_COUNT++))
+    FAIL_COUNT=$((FAIL_COUNT + 1))
 }
 
 check_warn() {
@@ -46,6 +46,7 @@ REQUIRED_FILES=(
     "team-charter.md"
     "ansible/site.yml"
     "ansible/inventory"
+    ".gitignore"
 )
 
 REQUIRED_DIRS=(
@@ -130,10 +131,16 @@ else
     check_fail "ansible/site.yml missing baseline play"
 fi
 
-if grep -q "apt:" "$REPO_ROOT/ansible/site.yml"; then
-    check_pass "ansible/site.yml contains apt module usage"
+if grep -q "dnf:" "$REPO_ROOT/ansible/site.yml"; then
+    check_pass "ansible/site.yml contains dnf module usage"
 else
-    check_fail "ansible/site.yml missing apt module tasks"
+    check_fail "ansible/site.yml missing dnf module tasks"
+fi
+
+if command -v ansible >/dev/null 2>&1; then
+    check_pass "Ansible is installed"
+else
+    check_fail "Ansible is not installed"
 fi
 
 echo ""
@@ -164,14 +171,6 @@ echo ""
 
 if [ $FAIL_COUNT -eq 0 ]; then
     echo -e "${GREEN}All checks passed!${NC}"
-    echo ""
-    echo "Next steps:"
-    echo "1. Fill in team information in README.md and team-charter.md"
-    echo "2. Create your GitHub repository and add this content"
-    echo "3. Verify all team members can access the shared container"
-    echo "4. Run 'ansible-playbook -i ansible/inventory ansible/site.yml' twice"
-    echo "5. Create your team's Google Doc and add the URL to README.md"
-    echo "6. Run this script again after completing the lab"
     exit 0
 else
     echo -e "${RED}Some checks failed. See above for details.${NC}"
