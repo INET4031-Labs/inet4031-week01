@@ -5,6 +5,8 @@ project: an incident-tracking application built and operated across nine weeks,
 moving from Docker Compose through Kubernetes, Infrastructure as Code, CI/CD,
 observability, security hardening, and backup/recovery.
 
+**The full in-depth lab instructions will be included the "Wiki" tab of each week's lab repository pages.**
+
 ## Team
 
 **Team Name:** [To be filled]
