@@ -37,8 +37,7 @@ QA is responsible for running all validation checks and signing off before deliv
 - [ ] ansible
 - [ ] scripts
 - [ ] team-charter.md
-- [ ] week-1
-- [ ] week-2
+- [ ] week-1 to week-9
 
 **Notes:**
 [Any missing directories or issues]
@@ -81,7 +80,6 @@ QA is responsible for running all validation checks and signing off before deliv
 - [ ] Google Doc URL present in README.md
 - [ ] URL is accessible at: [Paste URL here]
 - [ ] Doc is readable by University of Minnesota users
-- [ ] Sprint 1 Reflections section contains Part 1 answers
 - [ ] Sprint 1 Reflections section contains Part 2 answers
 - [ ] Sprint 1 Reflections section contains Part 3 answers
 - [ ] Week 1 Storage Baseline section contains required outputs
