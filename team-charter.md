@@ -26,7 +26,7 @@ Add one sentence describing each role after you assign them in Part 1:
 
 ## 7-Sprint Rotation Schedule
 
-Every team member must hold Scrum Master, System Admin, and QA at least once across the seven sprints. Fill in this table:
+Every team member must hold Scrum Master, System Admin, and QA at least once across the seven sprints. Fill in this table using what you jotted down in your Google Docs:
 
 ```
 Sprint 1: Scrum Master = ___, System Admin = ___, QA = ___, Developers = ___
