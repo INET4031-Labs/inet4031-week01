@@ -1,38 +1,33 @@
 # Sprint 1 Retrospective
 
-This file will be filled in during the Sprint 1 Review (end of Week 3, before Sprint 2 begins).
+**Owned by:** Scrum Master
 
-## Sprint Close: What Was Completed
+This file is completed at the end of the async week (Week 2). Review what your team shipped, what went well, what went poorly, and one specific process change for Sprint 2.
 
-**Completed Items:**
+## What Went Well
 
-[List items that were moved to Done on the sprint board]
+TODO: What did your team do well this sprint? What accomplishment are you proud of?
 
-**Incomplete Items:**
+## What Could Be Better
 
-[List any items that did not finish, with one-sentence notes on why]
+TODO: What was difficult? What slowed you down? What surprised you?
 
-## Team Reflection Questions
+## What We'll Do Differently Next Sprint
 
-Answer these as a team during the Sprint Review. Record in this file:
+TODO: Based on what you learned, name one specific process change or workflow improvement you will try in Sprint 2.
 
-### 1. What did you contribute to Sprint 1?
+## Team Contributions
 
-Each team member should briefly state their contributions:
+Use this section to note which team members led which parts of the work:
 
-- **[Team Member 1]:** [Your contributions]
-- **[Team Member 2]:** [Your contributions]
-- **[Team Member 3]:** [Your contributions]
-- **[Team Member 4 - optional]:** [Your contributions]
+| Role | Name | Primary Contribution |
+|---|---|---|
+| Scrum Master | | |
+| System Admin | | |
+| QA | | |
+| Developer 1 | | |
+| Developer 2+ | | |
 
-### 2. What is the most important thing the team shipped?
+## Notes
 
-[Team consensus on the single most valuable deliverable from Sprint 1]
-
-### 3. What would you do differently if Sprint 1 started again?
-
-[Team reflection on process improvements]
-
-## Notes for Sprint 2
-
-[Any handoff information or blocked items that Sprint 2 needs to know about]
+Any additional context about the sprint that does not fit the structure above.
