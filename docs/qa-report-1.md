@@ -1,9 +1,11 @@
-# QA Report: Sprint 1
+# QA Report: Sprint 1 Week 1
 
 QA is responsible for running all validation checks and signing off before deliverables are submitted. This report documents the validation process.
 
 **QA Team Member:** [Name]
 **Date Completed:** [Date]
+
+---
 
 ## Validation Checks
 
